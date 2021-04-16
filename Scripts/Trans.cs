@@ -14,12 +14,8 @@ public class Trans : MonoBehaviour
     {
         if(S==null){
             S = this;
-        }
-        
-       
+        } 
     }
-  
- 
     void Update()
     {
         
@@ -31,9 +27,6 @@ public class Trans : MonoBehaviour
         pos.x = newPOs.x;
         pos.y = newPOs.y;
         this.transform.position = pos;
-        
-        
-       
         
     }
 }
